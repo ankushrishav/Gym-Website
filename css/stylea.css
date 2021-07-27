@@ -1,0 +1,123 @@
+
+body {
+    font-family: 'Baloo Chettan 2', cursive;
+
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/workout-1420741_960_720.jpg');
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.left {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    display: inline-block;
+}
+
+.left img {
+
+    filter: invert();
+    width: 136px;
+}
+
+.mid {
+    display: block;
+    width: 36%;
+    margin: 29px auto;
+    background-color: antiquewhite;
+    border-radius: 50px;
+}
+
+.right {
+
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+
+    font-size: medium;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 34px 23px;
+    color: black;
+
+}
+
+.navbar li a:hover,
+.navbar li a.activeH {
+    text-decoration: underline;
+    color: rgb(231, 177, 106);
+}
+
+.btn {
+    margin: 0px 9px;
+    color: black;
+    background-color: burlywood;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+
+    color: black;
+    background-color: gainsboro;
+
+}
+
+.container {
+    margin: 170px 40px;
+    padding: 2px 2px;
+    width: 33%;
+    height: 500px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+
+}
+
+.conttext {
+   
+    padding: 0px 100px;
+    color: black;
+}
+.heading{
+    padding:5px 78px;
+    color: black;
+}
+.formGrp input{
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    height: 27px;
+    width: 400px;
+    padding: 6px;
+    border: none;
+    margin: 20px auto;
+    font-weight: bold;
+}
+.container button{
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    height: 50px;
+}
